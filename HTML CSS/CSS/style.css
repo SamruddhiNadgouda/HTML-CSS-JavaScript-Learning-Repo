@@ -1,0 +1,102 @@
+/* h3{
+    color: purple;
+}
+h1, 
+p{
+    color: red;
+}
+#myid{
+    background-color: burlywood;
+    text-decoration: wavy black underline;
+}
+#signup{
+    background-color: red;
+    color: white;
+}
+.follow{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}*/
+.upvote{
+    background-color:green;
+    color: azure;
+}
+
+/* Practice Q1 */
+*{
+    font-family: "Courier New";
+}
+h1{
+    color: #1b74e4;
+}
+.search{
+    background-color: black;
+    color: white;
+}
+#login,
+#register{
+    background-color: aqua;
+}
+
+/* Descendant selector */
+p a{
+    background-color: yellow;
+    color: purple;
+}
+
+/* Sibling combinator */
+p + h3{
+    text-decoration: underline;
+}
+.upvote + button{
+    background-color: black;
+    color: white;
+}
+/* Child combinator */
+.child-relation > p{
+    font-family: 'Times New Roman';
+    background-color: crimson;
+    color:antiquewhite;
+}
+
+/* Attribute selector */
+input[type="text"]{
+    color: blue;
+}
+input[type]{
+    background-color: pink;
+}
+
+/* Pseudo class */
+.upvote:hover{
+    cursor: pointer;
+    text-decoration: line-through;
+}
+h3:active{
+    color: purple;
+}
+input[type="radio"]:checked + label {
+    color: red;
+    font-weight: bold;
+}
+.post:nth-of-type(2n){ /* 2n => every 2nd post color will changed*/
+    background-color: peru;
+}
+
+/* Pseudo element */
+h1::first-letter{
+    color: green;
+}
+p::first-line{
+    color: blue;
+    background-color: beige;
+}
+
+/* Cascading style */
+h3{
+    background-color: yellow;
+}
+h3{
+    background-color: blue;
+}

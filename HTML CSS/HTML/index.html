@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to HTML</title>
+</head>
+<body>
+    <!--Practice Q1-->
+     <h1>Avengers</h1>
+    <h2>Iron Man</h2>
+    <p>Also goes by the name <b>Tony Stark</b></p>
+    <h2>Captain America</h2>
+    <p>Also goes by the name <b>Steve Rogers</b></p>
+    <h2>Hulk</h2>
+    <p>Also goes by the name <b>Bruce Banner</b></p>
+    <hr>
+    <!-- Practice Q2 -->
+    <h1>Lists of Fruits</h1>
+    <ul>
+        <li>Apple  <a href="apple.jpeg">see an apple</a></li>
+        <li>Orange <a href="orange.webp">see an orange</a></li>
+        <li>Manago <a href="mango.jpeg">see an manago</a></li>
+    </ul>
+
+    <p>Twinkle <b>Twinkle</b> <br><i>Little star</i><br> <u>How I wonder</u> <br>What you are?</p>
+    <hr>
+    <!-- Portfolio -->
+    <header>
+        <h1>Samruddhi Nadgouda</h1>
+        <p>I am undergradute computer engineering student, I love coding!</p>
+        <img src="myself.jpeg" alt="sn" style="height: 200px;">
+    </header>
+    <section>
+        <h2>Education</h2>
+        <ul>
+            <li><b>10th class (SSC) :</b> 92%</li>
+            <li><b>12th class (HSC) :</b> 94%</li>
+            <li><b>Bachelor's of Computer engineering :</b> 9.03 cgpa </li>
+        </ul>
+    </section>
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>Soft Skills</li>
+            <ol>
+                <li>Team Management</li>
+                <li>Problem Solving</li>
+                <li>Hardworking</li>
+                <li>Public Speaking</li>
+            </ol>
+        </ul>
+        <ul>
+            <li>Technical Skills</li>
+            <ol>
+                <li>HTML, CSS and JavaScript</li>
+                <li>ReactJS</li>
+                <li>DSA using Java</li>
+                <li>Node.js, SQL</li>
+            </ol>
+        </ul>
+    </section>
+    <section>
+        <h2>Achievements</h2>
+        <ul>
+            <li><i>HTML, CSS & Javascript</i> Certificate by Coursera.</li>
+            <hr>
+            <li>Workshop on <b>C++ language</b>.</li>
+            <hr>
+            <li>Internship at Oasis Infobyte</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Painting</li>
+            <li>Trekking</li>
+            <li>Coding</li>
+            <li>Listening Music</li>
+        </ul>
+    </section>
+    <footer>
+        <h2>Contact Me</h2>
+        <ul>
+            <li><b>Email :</b> samruddhinadgouda29@gmail.com</li>
+            <li><b>LinkedIn link :</b><a href="https://www.linkedin.com/in/samruddhi-nadgouda/">Link</a></li>
+            <li><b>GitHub link :</b><a href="https://github.com/SamruddhiNadgouda">Link</a></li>
+        </ul>
+        <!-- &reg; => trademark entity name -->
+        <p>&copy; Made with &hearts; by Samruddhi Nadgouda &reg;</p>
+    </footer> 
+    <hr>
+    <!-- Practice Q3 -->
+    <h1>Pythagoras Theorem says a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup></h1>
+    <h2>Formula for Glucose is C<sub>6</sub>H<sub>12</sub>O<sub>6</sub></h2>
+    <h3>Today is the 9<sup>th</sup> of October and 2<sup>4</sup> = 6 always.</sup></h3>
+    <hr>
+    <!-- Practice Q4 -->
+    <h2>The sky is cloudy &#9729; &amp; it will rain &#9748; today.</h2>
+    <hr>
+    <!-- emmet -> nav>ol>li visit the website => emmet.io -->
+    <h2>emmet concept:</h2>
+    <nav>
+        <ol>
+            <li>Hello world!!</li>
+            <li>we are using emmet concept.</li>
+            <li>emmet => li*3 used here.</li>
+            <li>emmet => li*3 used here.</li>
+            <li>emmet => li*3 used here.</li>
+        </ol>
+    </nav>
+    <hr>
+    <!-- Tables in HTML -->
+    <table border="1">
+        <caption>A test table with merged cells</caption>
+        <!-- Table header -->
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2">Average</th>
+                <th rowspan="2">Red eyes</th>
+            </tr>
+            <tr>
+                <th>Height</th>
+                <th>Weight</th>
+            </tr>
+        </thead>
+        <!-- Table body -->
+        <tbody>
+            <tr>
+                <td>Male</td>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <td>Female</td>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+        </tbody>
+        <!-- Table footer -->
+        <!-- <tfoot>
+            <tr>
+                <td>Total: </td>
+                <td>430</td>
+                <td>0.52</td>
+            </tr>
+        </tfoot> -->
+    </table>
+    <hr>
+    <!-- Forms in HTML -->
+    <h2>Forms</h2> 
+    <form action="/action">
+        <!-- Input element: <input/> <br> -->
+        <div>
+        <label> 
+            UserName : 
+            <input 
+                type="text" 
+                placeholder="Enter Username" 
+                name="username"/> 
+        </label>
+        </div>
+        <div>
+        <!-- Classical apporach -->
+        <label for="password"> Password: </label>
+        <input 
+            type="password" 
+            id="password" 
+            placeholder="Enter Password"
+            name="password"/>
+        </div>
+        <!-- <div>
+        <label id="phone"> Phone no.: </label>
+        <input type="number" id="phone" placeholder="Enter Phone number"/>
+        </div>
+        Time: <input type="time"/> 
+        Color: <input type="color"/> 
+        <button>Submit</button> -->
+
+        <!-- Checkbox -->
+        <div>
+            Choose the any Subjects:
+            <input type="checkbox" name="sub" id="math" value="math">
+            <label for="math">Mathematics</label>
+            <input type="checkbox" name="sub" id="sci" value="sci">
+            <label for="sci">Science</label>
+            <input type="checkbox" name="sub" id="his" value="his">
+            <label for="his">History</label>
+            <input type="checkbox" name="sub" id="eng" value="eng">
+            <label for="eng">English</label>
+        </div>
+
+        <!-- Radio button -->
+        <div>
+            Gender: 
+            <input type="radio" name="gender" id="male" value="male" />
+            <label for="male"> Male </label>
+
+            <input type="radio" name="gender" id="female" value="female" />
+            <label for="female"> Female </label>
+        </div>
+
+        <!-- Select element -->
+        <div>
+            Choose a Profession
+            <select name="profession" id="profession">
+                <option>Select your option</option>
+                <option value="stu" selected>Student</option>
+                <option value="dev">Developer</option>
+            </select>
+        </div>
+
+        <!-- Range in input element -->
+        <div>
+            <label for="volume"> Volume </label>
+            <input type="range" min="0" max="100" name="vol" step="20" value="50" />
+        </div>
+
+        <!-- Textarea element-->
+        <div>
+            <label for="feedback">Feedback: </label>
+            <Textarea id="feedback" name="fb" placeholder="Write your feedback.." rows="5" cols="50"></Textarea>
+        </div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button> 
+
+        <!-- We can use input element to create button
+        <div>
+            <input type="button" value="click me">
+            <input type="submit" value="Submit me">
+        </div> -->
+    </form>
+    <hr>
+    <form action="https://www.youtube.com/results">
+        <input type="text" placeholder="Search in YouTube" name="search_query" />
+        <button>Search</button>
+    </form>
+    <hr>
+    <form action="https://www.google.com/search">
+        <input type="text" placeholder="Search in Google" name="q" />
+        <button>Search</button>
+    </form>
+    <hr>
+    <!-- Practice Q5: Tables-->
+    <table border="1">
+        <caption>Stuent Information</caption>
+        <tr>
+            <th rowspan="6">Info</th>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Address</th>
+        </tr>
+        <tr>
+            <th>City</th>
+            <th>House</th>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>Delhi</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>Mumbai</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>Kolkata</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>Pune</td>
+            <td>4</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

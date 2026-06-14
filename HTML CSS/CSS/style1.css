@@ -1,0 +1,18 @@
+/* h2{
+    color: purple;
+    text-decoration:line-through;
+} */
+
+h2{
+    color: orange;
+    text-align: center;
+}
+button{
+    background-color: blue;
+    color: #ffffff;
+}
+p{
+    background-color: black;
+    color: #ffffff;
+    font-weight: bold;
+}

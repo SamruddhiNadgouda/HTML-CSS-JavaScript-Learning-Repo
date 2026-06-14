@@ -1,0 +1,388 @@
+/* Color in CSS
+*{
+    color: black;
+}
+h1{
+    color:blueviolet
+}
+#heading1{
+    color: aqua;
+}
+
+//practice set 1
+
+button{
+    background-color: green;
+}
+.heading {
+    color:red;
+}
+#box{
+    background-color: blue;
+    color: white;
+}*/
+
+/* Text properties
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+p{
+    text-align: left;
+    text-decoration: line-through;
+}
+a{
+    text-decoration: none;
+}
+
+#a1{
+    font-weight: normal;
+}
+#a2{
+    font-weight: bold;
+}
+#a3{
+    font-weight: lighter;
+}
+#one{
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+#two{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    line-height: 25px;
+}
+//practice set 2 
+*{
+    font-family: 'Times New Roman';
+}
+h2{
+    text-align: center;
+    text-transform: capitalize;
+}
+#id1{
+    font-size: 25px ;
+}
+#id2{
+    font-size: 10px;
+}
+
+div{
+    height: 100px;
+    width: 200px;
+    background-color: plum;
+    border-width: 5px;
+    border-style: solid;
+    border-color:wheat;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 20px 30px 40px 20px;
+}
+h1{
+    width:500px;
+    height: 50px;
+    background-color: rgb(60, 157, 138);
+    text-align: center;
+    border: 2px solid blue;
+    border-radius: 50%
+}
+#b1{
+    height: 400px;
+    width: 150px;
+    background-color:blue;
+    padding: 20px;
+    
+}
+#b2{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px;
+    border:2px solid black;
+}
+#b3{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    border-radius: 50%;
+    padding: 5px;
+    border:2px solid black;
+}
+#b4{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+    padding: 5px;
+    border:2px solid black;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    color:white;
+}
+
+#bar{
+    height: 60px;
+    background-color: black;
+    border: 5px solid gray;
+}
+a{
+    margin-right: 200px;
+}
+button{
+    background-color: #f08804;
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+    margin-left: 20px;
+}
+div{
+    background-color: rgba(255,0, 0, 0.5);
+    height: 100px;
+    width: 200px;
+    margin: 25px;
+    padding: 25px;
+    display: block;
+
+}
+#box{
+    visibility: hidden;
+    display: none;
+}
+.contentbox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+footer{
+    background-color: black;
+    text-align: center;
+}
+#content{
+    height: 500px;
+}
+div{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+
+#box1{
+    background-color: red;
+    position: static;
+}
+#box2{
+    background-color: aqua;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+#box3{
+    background-color: green;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+#box4{
+    background-color: yellow;
+    position: fixed;
+    right: 20px;
+}
+p{
+    font-size: 20px;
+}
+div{
+    height: 200px;
+    width: 200px;
+    color: white;
+    background-image: url(back.jpg);
+    background-size: cover;
+    position: fixed;
+    right: 0%;
+    top: 20px
+}
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 50px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container{
+    width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: row; 
+    /*left to right div direction
+    flex-direction: row-reverse; right to left div direction 
+    flex-direction: column; top to bottom direction
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    /*align-content: flex-start;
+}
+#box1{
+    background-color: aqua;
+    flex-grow: 1;
+}
+#box2{
+    background-color: red;
+    height: 200px;
+    /*align-self: center;
+    flex-shrink: 2;
+    flex-shrink: 0;
+    flex-grow: 2;
+}
+#box3{
+    background-color: chartreuse;
+    height: 50px;
+}
+#box4{
+    background-color: blue;
+}
+#box5{
+    background-color: pink;
+}
+.navbar{
+    background-color: pink;
+    display: flex;
+    justify-content:space-evenly;
+}
+a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(12, 43, 249);
+}
+li{
+    list-style-type: none; /* to remove symbol front of list
+    display: inline;
+}
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    align-self: flex-start;
+}
+div{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+}
+@media (max-width : 300px){
+    div{
+        background-color: green;
+    }
+}
+@media (min-width : 300px) and (max-width : 400px){
+    div{
+        background-color: palevioletred;
+    }
+}
+@media (min-width : 400px) and (max-width : 600px){
+    div{
+        background-color: red;
+    }
+}
+@media(min-width : 600px){
+    div{
+        background-color: blue;
+    }
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+    transition: all 2s ease-in-out 0.2s;
+    position: absolute;
+    top:100px;
+    left:100px;
+    transform: rotate(45deg);
+    rotate: z 90deg; 
+    transform: scale(0.5);
+    animation-name: animation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation: animation 2s ease-in 0s infinite reverse;
+}
+div:hover{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    transform: scale(1,2);
+    transform: translate(40px, 50px);
+    transform: skew(45deg);
+}
+div:active{
+    background-color: pink;
+}
+@keyframes animation{
+    from{font-size: 20px;}
+    to{font-size: 40px;}
+}
+@keyframes animation{
+    from{background-color: pink;}
+    to{background-color: blue;}
+    from{ 
+        left:0px; 
+        background-color: yellow;
+    }
+    to{ 
+        left: 200px;
+        background-color: blue;
+    }
+}*/
+div{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 20px solid gray;
+    border-top:20px solid black;
+    animation-name: spinanimate;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes spinanimate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

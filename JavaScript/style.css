@@ -1,0 +1,53 @@
+/* h1{
+    color: blue;
+    background-color: yellow;
+}
+.button{
+    height: 40px;
+    width: 80px;
+    border-radius: 25%;
+    font-weight: bold;
+    background-color: pink;
+}
+body{
+    background-color: violet;
+}
+#head1{
+    height: 250px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+    margin: 20px;
+    padding: 15px;
+} */
+/* .content{
+    color: red;
+    font-style: italic;
+    font-size: 20px;
+}
+.newClass{
+    background-color: green;
+}
+div{
+    height: 150px;
+    width: 100px;
+    margin: 10px;
+    background-color: palevioletred;
+    text-align: center;
+    border: 2px solid black;
+} */
+/* .dark{
+    background-color: black;
+    color: white;
+}
+.light{
+    background-color: white;
+    color: black;
+} */
+
+#result{
+    height: 400px;
+}
